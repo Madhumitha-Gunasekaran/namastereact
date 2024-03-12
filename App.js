@@ -1,6 +1,6 @@
 const heading = React.createElement(
     "h1", 
-    {id:"heading"}, //attributes
+    {id:"heading"}, //attributes , it can be class or id
     "Hello world from React!");
     console.log(heading)// this will give an object
 const root = ReactDOM.createRoot(document.getElementById('root'));
